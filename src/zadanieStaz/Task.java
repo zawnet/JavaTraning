@@ -159,17 +159,17 @@ public class Task {
         }
     }
 
-    public static void main(String[] args) {
-        List<Person> personList = new ArrayList<>();
-        personList.add(new Person("Paweł",3,Group.G1,true));
-        personList.add(new Person("Paweł2",7,Group.G2,true));
-        personList.add(new Person("Paweł3",8,Group.G3,true));
-        personList.add(new Person("Paweł4",5,Group.G1,false));
-        personList.add(new Person("Paweł5",7,Group.G2,true));
-
-        System.out.println(getActivePlayersByScoreDesc(personList));
-        System.out.println(getActivePlayersByScoreDesc(personList,Group.G1));
-        System.out.println(getGroupWithHighestScore(personList));
-        System.out.println(printPoints(personList));
-    }
+//    public static void main(String[] args) {
+//        List<Person> personList = new ArrayList<>();
+//        personList.add(new Person("Paweł",3,Group.G1,true));
+//        personList.add(new Person("Paweł2",7,Group.G2,true));
+//        personList.add(new Person("Paweł3",8,Group.G3,true));
+//        personList.add(new Person("Paweł4",5,Group.G1,false));
+//        personList.add(new Person("Paweł5",7,Group.G2,true));
+//
+//        System.out.println(getActivePlayersByScoreDesc(personList));
+//        System.out.println(getActivePlayersByScoreDesc(personList,Group.G1));
+//        System.out.println(getGroupWithHighestScore(personList));
+//        System.out.println(printPoints(personList));
+//    }
 }
