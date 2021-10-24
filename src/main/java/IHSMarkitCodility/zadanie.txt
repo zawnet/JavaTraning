@@ -1,0 +1,5 @@
+your room is  decorated. On the largeset wall you would like to paint a skyline.
+the skyline consist of rectangular buildings arranged in a line. the buildingsare all of the same width, but they may have diffrent heighs. The skyline shape is given as an array A whose elements specyfy heights of consecutive bulidings.
+The shape specyfied by this arrays is represented by figure below
+You wolud like to paint the skyline using continous horiziontal brushstrokes. Evry horizontal stroke is one unit high and arbitrarily wide. the goal is to calculate the minimum number of horizontal strokes needed. For example, the above shape canby painted using nine horizontal strokes.
+Starting from the bottom you can paint the skyline in horizontal stripes with 1,3,2,2,1 per respective stripe.
